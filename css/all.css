@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+    box-sizing: border-box;
+	font-family: 'Bitter', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	background: #00B6C4;
+}
+
+.floating-form-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.floating-form-group:last-of-type {
+	margin-bottom: 0;
+}
+
+.floating-form-group label {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	color: #888;
+    transition: all 0.3s ease-in-out;
+    cursor: text;
+}
+
+.floating-form-group input {
+	padding: 8px 0;
+	border: 0;
+	border-bottom: 1px solid #888;
+	background-color: transparent;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.floating-form-group input:focus,
+.normal-form-group input:focus,
+.normal-form-group select:focus {
+	outline: none;
+}
+
+.floating-form-group input::placeholder {
+	color: transparent;
+}
+
+.floating-form-group input:focus + label,
+.floating-form-group input:not(:placeholder-shown) + label {
+	top: -10px;
+	color: #39393a;
+	font-size: 1.1rem;
+}
+
+.normal-form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.normal-form-group label {
+	margin-bottom: 10px;
+}
+
+.normal-form-group input,
+.normal-form-group select {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #888;
+	height: 30px;
+}
+
+.button-group {
+	display: flex;
+	gap: 2rem;
+}
+
+.button-group button {
+	cursor: pointer;
+	padding: 10px 0;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	position: relative;
+	top: 0;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-family: 'Bitter', sans-serif;    
+}
+
+.button-group button.reset {
+	background-color: #666;
+	color: #e6e6e6;
+}
+
+.button-group button.submit {
+	background-color: #00B6C4;
+	color: #e6e6e6;
+}
+
+.button-group button:focus {
+	outline: none;
+}
+
+.button-group button:hover {
+	opacity: 0.8;
+}
+
+.button-group button:active {
+	top: 1px;
+}
+
+a:link,
+a:visited {
+	color: #00B6C4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer.response-text {
+	position: fixed;
+	bottom: -50px;
+	left: 0;
+	padding: 10px 0;
+	background-color: #666;
+	width: 100%;
+	color: #f5f5f5;
+	transition: all 0.5s ease-in-out;
+}
+
+footer.visible {
+	bottom: 0px;
+}
+
+footer p {
+	margin: 0 20px;
+	text-align: center;
+}

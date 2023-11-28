@@ -1,0 +1,76 @@
+{
+    "users": [
+        {
+            "firstname": "Hello",
+            "lastname": "World",
+            "dob": "1994-06-07",
+            "sex": "Male",
+            "username": "ragadaqa",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Wilma",
+            "lastname": "Barrera",
+            "dob": "2005-07-03",
+            "sex": "Male",
+            "username": "fikod",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Ivy",
+            "lastname": "Callahan",
+            "dob": "1986-05-31",
+            "sex": "Female",
+            "username": "wygubamuto",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Nerea",
+            "lastname": "Conley",
+            "dob": "2003-05-05",
+            "sex": "Male",
+            "username": "manol",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Oren",
+            "lastname": "Hurley",
+            "dob": "2023-08-17",
+            "sex": "Other",
+            "username": "mimylo",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Neve",
+            "lastname": "Pacheco",
+            "dob": "1984-04-18",
+            "sex": "Female",
+            "username": "zunedo",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Summer",
+            "lastname": "Kramer",
+            "dob": "1997-10-14",
+            "sex": "Female",
+            "username": "lygisa",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Harlan",
+            "lastname": "Good",
+            "dob": "2020-04-28",
+            "sex": "Male",
+            "username": "gezis",
+            "password": "Pa$$w0rd!"
+        },
+        {
+            "firstname": "Sydnee",
+            "lastname": "Mann",
+            "dob": "1979-08-07",
+            "sex": "Other",
+            "username": "selobyjek",
+            "password": "Pa$$w0rd!"
+        }
+    ]
+}
